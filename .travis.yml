@@ -3,10 +3,8 @@ rvm:
 - 2.1.3
 deploy:
   provider: heroku
-  on:
-    branch: beta
   api_key:
-    secure: O1nItjRPHwclWrSA8aCmD9T6BrsEbLHLLpKUVn5LxLn4JLLBQxNtTveD/GSUSHo8MguFxZxt+hxFuNSb6fYqBva5NlD9hRPAq3LV3Th8JHqMU7EV6G1pJrwlZxSM3Wf5vNSg4BlE1tJ5GqHSXmZsp91kuFir/DI/FcA8l1l+ATY=
-    app:
-      beta: beta-club-ratings-api
-      production: production-club-ratings-api
+    secure: mtmGwpNCsB9fid7cEItJbNPIO0MH91kGgnKELQooGINBw6vvNVudeOWmd2ooCmLcxntgqE4VPRxM1fqOtl3dYdwSTVkKPBc0ZPIQrGGjYSvfjA2BkkxcVL7C1QFGRzi38A6Qb8mJRVRQXOjcSq0FB+gP50m+f3u5/hBDwhsSZ8c=
+  app:
+    beta: beta-club-ratings-api
+    production: production-club-ratings-api
