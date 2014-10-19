@@ -7,11 +7,6 @@ deploy:
     branch: beta
   api_key:
     secure: O1nItjRPHwclWrSA8aCmD9T6BrsEbLHLLpKUVn5LxLn4JLLBQxNtTveD/GSUSHo8MguFxZxt+hxFuNSb6fYqBva5NlD9hRPAq3LV3Th8JHqMU7EV6G1pJrwlZxSM3Wf5vNSg4BlE1tJ5GqHSXmZsp91kuFir/DI/FcA8l1l+ATY=
-    app: beta-club-ratings-api
-deploy:
-  provider: heroku
-  on:
-    branch: production
-  api_key:
-    secure: O1nItjRPHwclWrSA8aCmD9T6BrsEbLHLLpKUVn5LxLn4JLLBQxNtTveD/GSUSHo8MguFxZxt+hxFuNSb6fYqBva5NlD9hRPAq3LV3Th8JHqMU7EV6G1pJrwlZxSM3Wf5vNSg4BlE1tJ5GqHSXmZsp91kuFir/DI/FcA8l1l+ATY=
-    app: production-club-ratings-api
+    app:
+      beta: beta-club-ratings-api
+      production: production-club-ratings-api
