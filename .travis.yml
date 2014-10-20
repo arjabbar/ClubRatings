@@ -4,7 +4,10 @@ rvm:
 deploy:
   provider: heroku
   api_key:
-    secure: mtmGwpNCsB9fid7cEItJbNPIO0MH91kGgnKELQooGINBw6vvNVudeOWmd2ooCmLcxntgqE4VPRxM1fqOtl3dYdwSTVkKPBc0ZPIQrGGjYSvfjA2BkkxcVL7C1QFGRzi38A6Qb8mJRVRQXOjcSq0FB+gP50m+f3u5/hBDwhsSZ8c=
+    beta: 
+      secure: mtmGwpNCsB9fid7cEItJbNPIO0MH91kGgnKELQooGINBw6vvNVudeOWmd2ooCmLcxntgqE4VPRxM1fqOtl3dYdwSTVkKPBc0ZPIQrGGjYSvfjA2BkkxcVL7C1QFGRzi38A6Qb8mJRVRQXOjcSq0FB+gP50m+f3u5/hBDwhsSZ8c=
+    production: 
+      secure: mtmGwpNCsB9fid7cEItJbNPIO0MH91kGgnKELQooGINBw6vvNVudeOWmd2ooCmLcxntgqE4VPRxM1fqOtl3dYdwSTVkKPBc0ZPIQrGGjYSvfjA2BkkxcVL7C1QFGRzi38A6Qb8mJRVRQXOjcSq0FB+gP50m+f3u5/hBDwhsSZ8c=
   app:
     beta: beta-club-ratings-api
     production: production-club-ratings-api
