@@ -10,8 +10,11 @@ gem 'uglifier', '>= 1.3.0'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+gem 'active_model_serializers'
+
+gem 'pry-rails'
+
 group :development, :test do
-  gem 'pry-rails'
   gem 'better_errors'
   gem 'meta_request'
   gem 'rspec-rails'
