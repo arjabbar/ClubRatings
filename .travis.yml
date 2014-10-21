@@ -7,7 +7,7 @@ deploy:
   provider: heroku
   strategy: api
   run:
-    - "bundle exec rake db:create db:migrate"
+    - "bundle exec rake db:migrate"
   api_key:
     beta: 
       secure: mtmGwpNCsB9fid7cEItJbNPIO0MH91kGgnKELQooGINBw6vvNVudeOWmd2ooCmLcxntgqE4VPRxM1fqOtl3dYdwSTVkKPBc0ZPIQrGGjYSvfjA2BkkxcVL7C1QFGRzi38A6Qb8mJRVRQXOjcSq0FB+gP50m+f3u5/hBDwhsSZ8c=
