@@ -5,7 +5,7 @@ before_script:
   - bundle exec rake db:create db:migrate RAILS_ENV=test
 deploy:
   provider: heroku
-  strategy: git
+  strategy: api
   run:
     - "bundle exec rake db:create db:migrate"
   api_key:
