@@ -2,12 +2,12 @@ language: ruby
 rvm:
   - 2.1.3
 before_script:
-  - rake db:create db:migrate RAILS_ENV=test
+  - bundle exec rake db:create db:migrate RAILS_ENV=test
 deploy:
   provider: heroku
   strategy: git
   run:
-    - "rake db:create db:migrate"
+    - "bundle exec rake db:create db:migrate"
   api_key:
     beta: 
       secure: mtmGwpNCsB9fid7cEItJbNPIO0MH91kGgnKELQooGINBw6vvNVudeOWmd2ooCmLcxntgqE4VPRxM1fqOtl3dYdwSTVkKPBc0ZPIQrGGjYSvfjA2BkkxcVL7C1QFGRzi38A6Qb8mJRVRQXOjcSq0FB+gP50m+f3u5/hBDwhsSZ8c=
