@@ -1,6 +1,8 @@
 language: ruby
 rvm:
-- 2.1.3
+  - 2.1.3
+before_script:
+  - rake db:create db:migrate RAILS_ENV=test
 deploy:
   provider: heroku
   strategy: git
