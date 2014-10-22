@@ -27,3 +27,4 @@ end
 
 gem 'puma'
 gem 'puma_auto_tune'
+gem 'rack-timeout'
