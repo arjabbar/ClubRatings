@@ -78,7 +78,7 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
+beta:
   <<: *default
   database: ClubRatings_beta
   username: ClubRatings
