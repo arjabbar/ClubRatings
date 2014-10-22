@@ -40,6 +40,7 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.2.2)
+    get_process_mem (0.2.0)
     hike (1.2.3)
     i18n (0.6.11)
     json (1.8.1)
@@ -60,6 +61,11 @@ GEM
       slop (~> 3.4)
     pry-rails (0.3.2)
       pry (>= 0.9.10)
+    puma (2.9.1)
+      rack (>= 1.1, < 2.0)
+    puma_auto_tune (0.0.1)
+      get_process_mem (~> 0)
+      puma (~> 2.7)
     rack (1.5.2)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
@@ -133,6 +139,8 @@ DEPENDENCIES
   meta_request
   pg
   pry-rails
+  puma
+  puma_auto_tune
   rails (= 4.1.6)
   rails_12factor
   rspec-rails
